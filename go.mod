@@ -1,6 +1,8 @@
-module github.com/jackc/pgx/v5
+module github.com/open2b/pgx/v5
 
 go 1.19
+
+replace "github.com/open2b/pgx/v5" => ./
 
 require (
 	github.com/jackc/pgpassfile v1.0.0
