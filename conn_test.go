@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgconn"
-	"github.com/jackc/pgx/v5/pgtype"
-	"github.com/jackc/pgx/v5/pgxtest"
+	"github.com/open2b/pgx/v5"
+	"github.com/open2b/pgx/v5/pgconn"
+	"github.com/open2b/pgx/v5/pgtype"
+	"github.com/open2b/pgx/v5/pgxtest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

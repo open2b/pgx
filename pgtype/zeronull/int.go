@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/jackc/pgx/v5/pgtype"
+	"github.com/open2b/pgx/v5/pgtype"
 )
 
 type Int2 int16

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jackc/pgx/v5/internal/stmtcache"
-	"github.com/jackc/pgx/v5/pgconn"
-	"github.com/jackc/pgx/v5/pgtype"
+	"github.com/open2b/pgx/v5/internal/stmtcache"
+	"github.com/open2b/pgx/v5/pgconn"
+	"github.com/open2b/pgx/v5/pgtype"
 )
 
 // Rows is the result set returned from *Conn.Query. Rows must be closed before

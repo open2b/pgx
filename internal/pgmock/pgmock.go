@@ -6,7 +6,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/jackc/pgx/v5/pgproto3"
+	"github.com/open2b/pgx/v5/pgproto3"
 )
 
 type Step interface {

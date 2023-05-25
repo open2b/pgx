@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgtype"
-	"github.com/jackc/pgx/v5/pgxtest"
+	"github.com/open2b/pgx/v5"
+	"github.com/open2b/pgx/v5/pgtype"
+	"github.com/open2b/pgx/v5/pgxtest"
 )
 
 func isExpectedEqMapStringString(a any) func(any) bool {
